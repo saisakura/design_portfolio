@@ -21,9 +21,6 @@ nav {
 	width: 1000px;
 	height: 50px;
 	border-bottom: 2px solid #001e43;
-
-
-
 }
 
 nav li {
@@ -33,7 +30,6 @@ nav li {
 	width: 250px;
 	padding: 10px;
 	box-sizing: border-box;
-
 }
 
 .nav-list {
@@ -67,8 +63,8 @@ h2 {
 	top: 0;
 	left: 0px;
 	z-index: 1;
-
 }
+
 .text {
 	font-size: 30px;
 	color: #fff;
@@ -76,7 +72,6 @@ h2 {
 	top: 150px;
 	left: 100px;
 	z-index: 3;
-
 }
 
 .logo {
@@ -85,7 +80,6 @@ h2 {
 	right: 10px;
 	z-index: 3;
 	vertical-align: bottom;
-
 }
 
 
@@ -118,7 +112,6 @@ h2 {
 	justfy-content: space-around;
 }
 
-
 .menu1 {
 	width: 300px;
 	padding: 20px;
@@ -146,7 +139,6 @@ h2 {
 
 .menu-list {
 	font-size: 16px;
-
 }
 
 .other-menu {
@@ -167,7 +159,6 @@ h2 {
 
 .contents4 dl {
 	margin-left: 40px;
-
 }
 
 .map {
@@ -200,5 +191,4 @@ footer {
 	text-align: right;
 	float: right;
 	margin-right: 20px;
-
 }
