@@ -8,12 +8,26 @@
 #wrap {
 	width: 1000px;
 	margin: 0 auto;
+	color: #222;
 }
 
 li {
 	list-style-type: none;
 }
 
+a {
+	color: #222;
+	padding: 0 20px;	
+}
+
+a:link {
+	color: #222;	
+}
+
+a:hover {
+	color: #fff;
+	background-color: #191970;
+}
 
 /*header*/
 
@@ -21,6 +35,8 @@ nav {
 	width: 1000px;
 	height: 50px;
 	border-bottom: 2px solid #001e43;
+	padding-top: 20px;
+
 }
 
 nav li {
@@ -30,6 +46,11 @@ nav li {
 	width: 250px;
 	padding: 10px;
 	box-sizing: border-box;
+}
+
+nav li a {
+	color: #222;
+	padding: 0 20px;
 }
 
 .nav-list {
@@ -45,15 +66,15 @@ h1 {
 /*main contents1*/
 
 h2 {
-	border-left: 5px solid #001e43;
-	text-indent: 0.5em;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 .contents1 {
 	width: 1000px;
 	height: 450px;
 	padding: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 100px;
 	position: relative;
 	box-sizing: border-box;
 }
@@ -87,24 +108,30 @@ h2 {
 .contents2 {
 	padding: 20px 20px 20px;
 	line-height: 1.5em;
+	margin-bottom: 100px;
 }
 
-
 .topics {
-	padding: 20px;
+	text-align: center;
+	display: flex;
+	margin-left: 250px;
+	margin-right: 250px;
+
+}
+
+.topics dl {
+	width: 500px;
 }
 
 .topics dt{
-	float: left;
-	clear: left;
 	margin-right: 1em;
 }
-
 
 /*main contents3*/
 .contents3 {
 	padding: 20px 20px 20px;
 	line-height: 1.5em;
+	margin-bottom: 50px;
 }
 
 .menu {
@@ -137,10 +164,6 @@ h2 {
 	margin: 20px 0;
 }
 
-.menu-list {
-	font-size: 16px;
-}
-
 .other-menu {
 	font-size: 14px;
 	margin-top: 10px;
@@ -150,7 +173,8 @@ h2 {
 /*contents4*/
 .contents4 {
 	padding: 20px 20px 0px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
+	margin-top: 100px;
 }
 
 .contents4 h3 {
@@ -169,6 +193,16 @@ h2 {
 
 address {
 	line-height: 1.5em;
+}
+
+address dt {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+
+address dd {
+	margin-bottom: 25px;
 }
 
 /* footerの設定 */
